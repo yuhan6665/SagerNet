@@ -93,8 +93,10 @@
     <string name="connection_test_available">نجاح: استغرقت مصافحة HTTPS %dms</string>
     <string name="connection_test_testing">اختبارات…</string>
     <string name="speed">%s/s</string>
-    <string name="speed_detail">بروکسی： %1$s↑ %2$s↓
-\nمباشر： %3$s↑ %4$s↓</string>
+    <string name="speed_detail">بروکسی:
+\n\t%1$s↑ %2$s↓
+\nمباشر:
+\n\t%3$s↑ %4$s↓</string>
     <string name="traffic">%1$s↑ %2$s↓</string>
     <string name="allow_insecure_sum">تعطيل فحص الشهادة. عند التمكين ، يكون هذا التكوين آمنًا مثل النص العادي</string>
     <string name="allow_insecure">السماح بعدم الأمان</string>
@@ -372,10 +374,13 @@
     <plurals name="removed">
         <item quantity="zero">محذوف</item>
         <item quantity="one">%d العناصر التي تمت إزالتها</item>
-        <item quantity="two"></item>
-        <item quantity="few"></item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="two"/>
+        <item quantity="few"/>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="add_profile_methods_manual_settings">الإعدادات اليدوية</string>
+    <string name="experimental_no_termination_signal">عند الإرسال عبر VMess، لا ترسل إشارة إنهاء ثنائية الاتجاه لاتصال TCP. سيؤدي ذلك إلى تعطل بعض التطبيقات.</string>
+    <string name="experimental_authenticated_length">لم يعد طول كل شحنة مرنًا. يتطلب هذا الاختبار خادمًا ويستخدم العميل نفس إصدار v2ray-core. من المتوقع المزيد من التحديثات الفورية في هذا الاختبار.</string>
+    <string name="experimental_settings">تجريبي</string>
 </resources>

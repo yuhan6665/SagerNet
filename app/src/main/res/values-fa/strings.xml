@@ -104,7 +104,7 @@
     <string name="alter_id">شماره تغییر</string>
     <string name="uuid">شناسه کاربر</string>
     <string name="obfs_param">پارامترهای Obfs</string>
-    <string name="obfs">Obfs(اُ بی اِف اِس)</string>
+    <string name="obfs">پروتکل Obfs</string>
     <string name="header_type">نوع سربرگ</string>
     <string name="network">شبکه</string>
     <string name="security">رمزنگاری لایه انتقال</string>
@@ -372,4 +372,7 @@
     <string name="hysteria_auth_payload">ظرفیت بار احراز هویت</string>
     <string name="hysteria_auth_type">نوع احراز هویت</string>
     <string name="hysteria_obfs">رمز عبور مبهم</string>
+    <string name="experimental_no_termination_signal">هنگام انتقال از طریق VMess، سیگنال خاتمه دو طرفه اتصال را برای اتصال TCP ارسال نکنید. این باعث خرابی برخی از برنامه ها می شود.</string>
+    <string name="experimental_authenticated_length">طول هر بخش محموله دیگر قابل انعطاف نیست. این آزمایش نیاز به سرور دارد و سرویس گیرنده از نسخه مشابه v2ray-core استفاده می کند. انتظار می رود بروزرسانی های فوری بیشتری در مورد این آزمایش ارائه شود.</string>
+    <string name="experimental_settings">آزمایشی</string>
 </resources>
